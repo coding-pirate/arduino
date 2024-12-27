@@ -1,4 +1,4 @@
-function Contact() {
+function Ugeplan() {
   
     return (
       <>
@@ -7,5 +7,5 @@ function Contact() {
     )
   }
   
-  export default Contact
+  export default Ugeplan
   
