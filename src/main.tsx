@@ -7,8 +7,8 @@ import App from './App.tsx';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <App/>
-    <HashRouter basename='/arduino'>
+    <HashRouter basename='/arduino'> {/* Make sure HashRouter wraps the entire app */}
+      <App />  {/* This is where the App component is rendered */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
