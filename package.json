@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.1",
   "type": "module",
-  "homepage": "https://coding-pirate.github.io/arduino",
+  "homepage": "https://coding-pirate.github.io/arduino/#/arduino",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
