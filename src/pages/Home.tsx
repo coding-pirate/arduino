@@ -8,7 +8,7 @@ function Home() {
         <Container>
           <Row>
             <Col xs={9}>
-              <h1>Velkommen til elektronik!</h1>
+              <h4>Velkommen til Arduino!</h4>
               <p>Dette er siden for elektronik hos Coding Pirates Esbjerg, hvor der er informationer til lektioner, øvelser og hjælp angående Arduino.</p>
 
               <br />
