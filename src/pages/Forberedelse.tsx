@@ -1,4 +1,3 @@
-import 'bs-stepper/dist/css/bs-stepper.min.css';
 import './Forberedelse.css';
 import Form from 'react-bootstrap/esm/Form';
 import { InputGroup, Button, Card } from 'react-bootstrap';
