@@ -1,28 +1,15 @@
-import { Routes, Route, Link } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home.tsx';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
 import Ugeplan from './pages/Ugeplan.tsx';
 import Forberedelse from './pages/Forberedelse.tsx';
+import Install from './pages/Installer_Arduino/install.tsx';
+import Eksempel1 from './pages/eksempel-1/eksempel-1.tsx';
+import Eksempel2 from './pages/eksempel-2/eksempel-2.tsx';
+import Eksempel3 from './pages/eksempel-3/eksempel-3.tsx';
 
 function App() {
   return (
     <>
-      <Navbar expand="lg" className="bg-body-tertiary">
-        <Container>
-          <Navbar.Brand href="#/arduino">Coding Pirates Esbjerg</Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
-              {/* Replace Nav.Link with Link for client-side routing */}
-              <Nav.Link as={Link} to="/">Introduktion</Nav.Link>
-              <Nav.Link as={Link} to="/ugeplan">Ugeplan</Nav.Link>
-              <Nav.Link as={Link} to="/forberedelse">Forberedelse</Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
 
       <main>
         {/* Routes */}
@@ -30,6 +17,10 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/ugeplan" element={<Ugeplan />} />
           <Route path="/forberedelse" element={<Forberedelse />} />
+          <Route path="/install" element={<Install/>} />
+          <Route path="/eksempel1" element={<Eksempel1/>} />
+          <Route path="/eksempel2" element={<Eksempel2/>} />
+          <Route path="/eksempel3" element={<Eksempel3/>} />
           <Route path="*" element={<h1>Page Not Found</h1>} />
         </Routes>
       </main>

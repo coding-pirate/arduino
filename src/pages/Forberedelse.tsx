@@ -1,16 +1,14 @@
 import './Forberedelse.css';
 import Form from 'react-bootstrap/esm/Form';
-import { InputGroup, Button, Card } from 'react-bootstrap';
+import { InputGroup, Button } from 'react-bootstrap';
+import Container from 'react-bootstrap/Container';
 import { Link } from 'react-router-dom';
 
 function Forberedelse() {
   
     return (
       <>
-      <div className="container">
-            <div className="row">
-                <div className="col-9">
-                    <br></br>
+        <Container>
                     <h4>Velkommen til forberedelse!</h4>
                     <p>Her går vi igennem forberedelsen, så vi er klar og parat når vi mødes.</p>
 
@@ -383,16 +381,8 @@ function Forberedelse() {
                             
                         </div>
                     </div>
+            </Container>
 
-                </div>
-
-                
-
-                <div className="col-3">
-
-                </div>
-            </div>
-        </div>
       </>
     )
   }

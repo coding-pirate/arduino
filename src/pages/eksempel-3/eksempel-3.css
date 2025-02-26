@@ -1,0 +1,78 @@
+img {
+    max-height: 30em;
+}
+/* Code container styling */
+.code-container {
+  position: relative;
+  background-color: #f5f5f5; /* Light gray background */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 20px 0;
+  color: #000000; /* Default text color */
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  overflow-x: auto;
+}
+
+/* Pre and code tags */
+.code-container pre {
+  margin: 0;
+}
+
+.code-container code {
+  display: block;
+  white-space: pre-wrap;
+}
+
+/* Syntax highlighting */
+.keyword {
+  color: #0000FF; /* Blue for keywords */
+}
+
+.function {
+  color: #8B4513; /* Brown for functions */
+}
+
+.comment {
+  color: #808080; /* Gray for comments */
+}
+
+.literal {
+  color: #FF0000; /* Red for literals */
+}
+
+.constant {
+  color: #0000FF; /* Blue for constants */
+}
+
+.type {
+  color: #0000FF; /* Blue for types */
+}
+
+.variable {
+  color: #000000; /* Black for variables */
+}
+
+.string {
+  color: #008000; /* Green for strings */
+}
+
+/* Copy button styling */
+.copy-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.copy-button:hover {
+  background-color: #45a049;
+}

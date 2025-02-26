@@ -1,0 +1,11 @@
+.container-fluid {
+    margin-top: 1em;
+}
+
+ul {
+    font-size: 2em;
+}
+
+ul li {
+    font-size: small;
+}
