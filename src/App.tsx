@@ -1,7 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
-import Home from './pages/Home.tsx';
-import Ugeplan from './pages/Ugeplan.tsx';
-import Forberedelse from './pages/Forberedelse.tsx';
+import Home from './pages/home/Home.tsx';
+import Forberedelse from './pages/forberedelse/Forberedelse.tsx';
 import Install from './pages/Installer_Arduino/install.tsx';
 import Eksempel1 from './pages/eksempel-1/eksempel-1.tsx';
 import Eksempel2 from './pages/eksempel-2/eksempel-2.tsx';
@@ -15,7 +14,6 @@ function App() {
         {/* Routes */}
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/ugeplan" element={<Ugeplan />} />
           <Route path="/forberedelse" element={<Forberedelse />} />
           <Route path="/install" element={<Install/>} />
           <Route path="/eksempel1" element={<Eksempel1/>} />

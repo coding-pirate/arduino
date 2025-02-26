@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
-import './UgeplanSidebar.css';
+import './Sidebar.css';
 import { Navbar, Container } from 'react-bootstrap';
 
-function UgeplanSidebar() {
+function Sidebar() {
   
     return (
       <>
@@ -45,5 +45,5 @@ function UgeplanSidebar() {
     )
   }
   
-  export default UgeplanSidebar
+  export default Sidebar
   
