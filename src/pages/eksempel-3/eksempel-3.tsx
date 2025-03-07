@@ -5,9 +5,9 @@ const Eksempel3: React.FC = () => {
   // Function to copy code to clipboard
   const copyCode = (code: string) => {
     navigator.clipboard.writeText(code).then(() => {
-      alert('Koden er kopieret til udklipsholderen!'); // Alert in Danish
+      alert('Koden er kopieret til udklipsholderen!');
     }).catch(err => {
-      console.error('Fejl ved kopiering af kode: ', err); // Error in Danish
+      console.error('Fejl ved kopiering af kode: ', err);
     });
   };
 
@@ -27,7 +27,7 @@ const Eksempel3: React.FC = () => {
       <p>I setup() sætter vi pin 7 til INPUT for at læse fra knappen og pin 8 til OUTPUT for at styre LED'en.</p>
       <p>I loop() tænder vi LED'en, når knappen trykkes ned, og slukker den, når knappen slippes.</p>
 
-      {/* Code display section for Example 1 */}
+      {/* 1. Kode eksempel */}
       <div className="code-container">
         <pre>
           <code>
@@ -66,7 +66,7 @@ void loop() {
       <h6>Kode eksempel 2</h6>
       <p>I stedet for at bruge direkte pin-numre, bruger vi variabler til at holde styr på pin'ene.</p>
 
-      {/* Code display section for Example 2 */}
+      {/* 2. Kode eksempel */}
       <div className="code-container">
         <pre>
           <code>

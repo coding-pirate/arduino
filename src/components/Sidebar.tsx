@@ -6,7 +6,7 @@ function Sidebar() {
   
     return (
       <>
-        <Navbar expand="lg" className="bg-body-tertiary">
+        <Navbar expand="lg" className="sidebar">
             <Container>
             <Navbar.Brand href="#/arduino">Coding Pirates Esbjerg</Navbar.Brand>
             </Container>
