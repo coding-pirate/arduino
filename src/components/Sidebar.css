@@ -9,3 +9,12 @@ ul {
 ul li {
     font-size: small;
 }
+
+.sidebar {
+    background-color: #FFFFFF;
+}
+
+.list-group-item {
+    border: none ;
+    
+}
